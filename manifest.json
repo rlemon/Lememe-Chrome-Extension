@@ -1,0 +1,17 @@
+{
+	"name": "Lemon Meme Lite",
+	"version": "0.1",
+	"description": "Chrome extension for creating custom meme images anywhere at any time.",
+	"icons": {
+		"16": "icon_16.png",
+		"48": "icon_48.png",
+		"128": "icon_128.png"
+	},
+	"browser_action": {
+		"default_icon": "icon_16.png",
+		"default_title": "Lemon Meme Console",
+		"default_popup": "popup.html"
+	},
+	"background_page": "background.html",
+	"permissions": ["contextMenus"]
+}
